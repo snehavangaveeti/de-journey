@@ -1,1 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Secrets (passwords, API keys)
+.env
+
+# Data files: too big for Git, and code repos are for code
+*.parquet
 data/
+
+# Computer/editor junk
+.DS_Store
+Thumbs.db
